@@ -1,9 +1,8 @@
-package Practice1;
-
 public class LegacyPaymentAdapter implements PaymentProcessor {
     private final LegacyPaymentGateway legacyGateway;
 
     public LegacyPaymentAdapter(LegacyPaymentGateway legacyGateway) {
+
         this.legacyGateway = legacyGateway;
     }
 

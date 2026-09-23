@@ -1,5 +1,3 @@
-package Practice1;
-
 public class LegacyPaymentGateway {
     public String makePayment(int amountInCents) {
         if (amountInCents <= 0) {

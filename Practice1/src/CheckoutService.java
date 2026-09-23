@@ -1,5 +1,3 @@
-package Practice1;
-
 public class CheckoutService {
     private final PaymentProcessor paymentProcessor;
     public CheckoutService(PaymentProcessor paymentProcessor) {
